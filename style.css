@@ -245,7 +245,19 @@ div.fadeIn {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
+
+    .game {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .score {
+        gap: 40px;
+    }
+
     .hands {
         padding: 0 50px;
     }
@@ -271,6 +283,18 @@ div.fadeIn {
 }
 
 @media (max-width: 480px) {
+
+    .game{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .score{
+        gap: 40px;
+    }
+
     .hands {
         padding: 0;
     }
