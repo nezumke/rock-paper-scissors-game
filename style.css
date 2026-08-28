@@ -262,12 +262,25 @@ div.fadeIn {
         font-size: clamp(15px, 10vw, 27px);
     }
 
+    .cuteimg{
+        margin-top: 0;
+    }
+
 }
 
 @media (max-width: 390px) {
 
     .intro {
         padding: 0 25px;
+        gap: 20px;
+    }
+
+    .intro h1{
+        font-size: clamp(12px, 14vw, 25px);
+    }
+
+    .cuteimg{
+        margin-top: 0;
     }
 
     .game {
